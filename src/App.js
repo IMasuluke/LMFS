@@ -8,12 +8,12 @@ import About from './pages/Aboutus';
 import Contact from './pages/ContactUs';
 import Plans from './pages/plans';
 import { createBrowserHistory } from "history";
-import { Router, Suspense, Route, Switch } from 'react-router-dom';
+import { HashRouter, Suspense, Route, Switch } from 'react-router-dom';
 const history = createBrowserHistory();
 function App() {
   return (
     <main>
-    <Router  history={history}>
+    <HashRouter  history={history}>
       <Switch>
       <Route path="/plans">
             <Plans />
@@ -28,7 +28,7 @@ function App() {
             <Home />
           </Route>
       </Switch>
-  </Router>
+  </HashRouter>
 </main>
   );
 }
