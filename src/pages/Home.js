@@ -17,7 +17,7 @@ function Home() {
         <div className="flex-container">
         <img src={require("../Assets/family1.jpg")} />
         <img src={require("../Assets/family2.jpg")}  />
-        <img src={require("../Assets/family4.jpg")}  />
+  <img src={require("../Assets/family4.jpg")}  />
         </div>
         <h1 className="HomeHeading">Funeral Services</h1>
         <p className="HomeText"> LMFS Offers you a range of products that are meant to assist you or your

@@ -215,8 +215,12 @@ function About() {
                     }}>
                 <Gallery
             images={IMAGES}
+            style={{marginTop: 300}}
             enableLightbox={true}
+            backdropClosesModal={true}
+            showCloseButton={false}
             enableImageSelection={false}/>
+          
                 </div>
                 
         </div>

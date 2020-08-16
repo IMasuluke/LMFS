@@ -79,7 +79,12 @@
 .flex-container > div {
   background-color: #f1f1f1;
   text-align: center;
-  line-height: 200px;
+}
+
+.flex-container>img {
+  min-height: 0;
+  height: 30vh;
+  width: 33.33333%;
 }
 
 .rowFlex {
